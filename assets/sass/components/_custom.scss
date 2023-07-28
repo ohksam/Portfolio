@@ -1,0 +1,158 @@
+/* Mine */
+/* override Stellar styling */
+body {
+    background-color: #2ab7ca;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #2ab7ca 15%, #06d6a0 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #2ab7ca 15%, #06d6a0 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #2ab7ca 15%, #06d6a0 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #2ab7ca 15%, #06d6a0 85%);
+}
+
+#main header.major h2:after {
+    background-color: #2ab7ca;
+    background-image: -moz-linear-gradient(90deg, #2ab7ca, #06d6a0);
+    background-image: -webkit-linear-gradient(90deg, #2ab7ca, #06d6a0);
+    background-image: -ms-linear-gradient(90deg, #2ab7ca, #06d6a0);
+    background-image: linear-gradient(90deg, #2ab7ca, #06d6a0);
+}
+
+
+
+/* Projects Section */
+.project-item {
+	display: flex;
+	align-items: stretch;
+	margin-bottom: 20px;
+}
+
+.project-item .image-wrapper, .project-item .description-wrapper {
+	flex: 1;
+}
+
+.project-item.left .image-wrapper {
+	order: 1;
+}
+
+.project-item.left .description-wrapper {
+	order: 2;
+}
+
+.project-item.right .image-wrapper {
+	order: 2;
+}
+
+.project-item.right .description-wrapper {
+	order: 1;
+}
+
+.project-item .image-wrapper img {
+	max-width: 40vw;
+    height: auto;
+    border-radius: 10px; /* Change this to suit your aesthetic */
+    /* box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1); */
+}
+
+/* override Stellar spacing */
+.project-item .description-wrapper h3,
+.project-item .description-wrapper h4,
+.project-item .description-wrapper p,
+.project-item .description-wrapper a {
+    margin: 0; 
+}
+
+.project-item .image-wrapper {
+    margin-right: 25px;
+}
+.project-item.right .image-wrapper {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.description-wrapper h3,
+.description-wrapper h4 {
+	font-weight: 400;
+}
+
+/* .description-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.description-wrapper p {
+	margin-bottom: 500px;
+} */
+
+.description-wrapper {
+	transform: translateY(-50px);
+}
+
+
+
+
+/* Skills Section */
+.mySkills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	list-style-type: none;
+	/* width: 80%;
+	margin: auto; */
+}
+
+.skill-bubble {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: space-between; */
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 10px;
+	/* width: 100px; */
+	/* height: 100px; */
+	width: calc((100% / 6) - 20px);
+	height: auto;
+}
+
+.skill-bubble i {
+	font-size: 5.5em;
+	margin-bottom: 0.1em;
+}
+
+
+
+
+/* Education Section */
+.myEducation {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	list-style-type: none;
+}
+
+.education-bubble {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 10px;
+	/* width: 40%; */
+}
+
+.education-bubble img {
+	/* width: 50%; */
+	width: 12em;
+	height: auto;  
+	margin-bottom: 0.5em;
+}
+
+
+/* bottom of page */
+#footer {
+	display: flex;
+	justify-content: center;
+}
