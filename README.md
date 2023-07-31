@@ -7,6 +7,8 @@ I'm Sam, a software engineer with a background in Psychology, Theology, and Educ
 * 📧  You can contact me at [SamOh37@gmail.com](mailto:SamOh37@gmail.com)
 * 🚀  I'm currently working on [Samazon](http://samazon.onrender.com)
 * 🧠  I'm learning Python
+* 😊  Pronouns: He/Him
+* ⭐  Hobbies: Video Games, Bass Guitar, Biking, and more
 
 ### Skills
 
